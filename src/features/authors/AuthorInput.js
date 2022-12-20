@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { v4 as uuid } from "uuid";
 import { useDispatch } from "react-redux";
-import { addAuthor } from "./booksSlice";
+import { addAuthor } from "../books/booksSlice";
 
 function AuthorInput() {
   const [authorName, setAuthorName] = useState("");
